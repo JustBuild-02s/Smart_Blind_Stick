@@ -1,0 +1,32 @@
+Ultrasonic Sensors → Arduino
+| Sensor | TRIG | ECHO |
+| ------ | ---- | ---- |
+| Up     | D2   | D3   |
+| Left   | D4   | D5   |
+| Right  | D6   | D7   |
+| Down   | D8   | D9   |
+
+Other Sensors → Arduino
+| Component       | Arduino Pin |
+| --------------- | ----------- |
+| Buzzer          | D10         |
+| Vibration Motor | D12         |
+| Moisture Sensor | A0          |
+| SOS Button      | D11         |
+| Flashlight LED  | D13         |
+
+MPU6050 → Arduino
+| MPU6050 | Arduino |
+| ------- | ------- |
+| VCC     | 5V      |
+| GND     | GND     |
+| SDA     | A4      |
+| SCL     | A5      |
+
+Arduino ↔ ESP32 Connection
+| Arduino    | ESP32        |
+| ---------- | ------------ |
+| TX (Pin 1) | RX2 (GPIO16) |
+| GND        | GND          |
+⚠️ Important
+Use a voltage divider if possible because Arduino TX = 5V and ESP32 RX = 3.3V.
