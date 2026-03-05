@@ -1,0 +1,15 @@
+Components List
+| Component                 | Quantity  |
+| ------------------------- | --------- |
+| Arduino Uno               | 1         |
+| ESP32 Dev Board           | 1         |
+| Ultrasonic Sensor HC-SR04 | 4         |
+| MPU6050 IMU               | 1         |
+| Moisture Sensor           | 1         |
+| Vibration Motor           | 1         |
+| Active Buzzer             | 1         |
+| Push Button (SOS)         | 1         |
+| Flashlight LED            | 1         |
+| 220Ω Resistor             | 1         |
+| Battery Pack              | 1         |
+| Connecting Wires          | As needed |
